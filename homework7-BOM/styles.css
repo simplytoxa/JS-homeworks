@@ -1,0 +1,70 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.table{
+  font-size: 0;
+}
+.name, .value{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  font-size: 14px;
+}
+.name {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.value{
+  border-right: 1px solid black;
+}
+.name__title, .value__title{
+  background-color: aliceblue;
+  border-top: 1px solid black;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+  text-align: left;
+  border-bottom: 1px solid black;
+  height: 30px;
+  position: relative;
+  padding: 5px 70px 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+li:nth-of-type(2n+1){
+  background-color: bisque;
+}
+li:nth-of-type(2n){
+  background-color: darkgrey;
+}
+
+button{
+  position: absolute;
+  right: 10px;
+}
+
+.form{
+  margin-top: 50px;
+}
+
+label{
+  margin-left: 50px;
+}
+#add-btn{
+  display: inline-block;
+  position: static;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+a{
+  display: inline-block;
+  margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+<div class="container">
+    <p class="text-first">Lorem ipsum dolor sit amet.</p>
+    <p class="text-second">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <div class="sub-container">
+        <p class="subtext-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="subtext-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="subtext-2">Lorem ipsum dolor sit <span>amet</span>, consectetur.</p>
+        <div class="sub-sub-container">
+            <p class="subtext-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="subtext-5">Lorem ipsum dolor sit amet, consectetur.</p>
+            <span></span><span></span><span></span><span></span><span></span>
+            <div class="bla">
+                <div class="blabla">
+                    <p class="subtext-6">Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!--<div class="bla"><div class="blabla"></div></div>-->
+    </div>
+</div>
+
+
+<script src="prepend.js"></script>
+<script src="deleteTextNodes.js"></script>
+<script src="recursiveDelete.js"></script>
+<script src="scanDOM.js"></script>
+</body>
+</html>

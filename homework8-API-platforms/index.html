@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+</head>
+<body>
+  <button class="btn">Хочу города!</button>
+  <button class="btn-reset" type="reset">Очистить экран</button>
+  <input type="search" class="find">
+  <a href="vkApp.html">Перейти к VK App</a>
+  <div class="container"></div>
+
+  <script src="handlebars.js"></script>
+  <script src="AJAXwithStar.js"></script>
+
+  <script id="cities" type="text/x-handlebars-template">
+    {{#each list}}
+      <div>{{name}}</div>
+    {{/each}}
+  </script>
+</body>
+</html>

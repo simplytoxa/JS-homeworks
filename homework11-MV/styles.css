@@ -1,0 +1,27 @@
+.grid {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px;
+  max-width: 100px;
+}
+
+.grid > img {
+  width: 100px;
+  height: 100px;
+}
+.comments{
+  max-width: none;
+}
+
+.comment{
+  position: relative;
+}
+.comment__photo{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.comment__items{
+  display: inline-block;
+  vertical-align: top;
+}

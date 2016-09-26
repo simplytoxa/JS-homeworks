@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>App</title>
+  <script src="//vk.com/js/api/openapi.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="vkPlayer.html">Перейти к аудио-плееру</a>
+  <div class="container"></div>
+
+  <script src="vkApp.js" type="text/javascript"></script>
+
+  <script id="friends" type="text/x-handlebars-template">
+    <ul class="friends__list">
+      {{#each list}}
+        <li class="friends__item">
+          <div class="photo"><img src="{{photo_50}}" alt="photo"></div>
+          <ul class="info">
+            <li class="info__item">{{first_name}} {{last_name}}</li>
+            <li class="info__item">Возраст: {{yOld}}</li>
+            <li class="info__item">Дата рождения: {{bdate}}</li>
+          </ul>
+        </li>
+      {{/each}}
+    </ul>
+  </script>
+</body>
+</html>

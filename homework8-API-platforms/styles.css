@@ -1,0 +1,23 @@
+.friends__item{
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  background-color: honeydew;
+  margin: 10px;
+}
+.photo{
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}
+.info{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 70%;
+}
+.info__item{
+  list-style-type: none;
+  margin: 5px 0 5px 0;
+}
